@@ -11,7 +11,20 @@ Metrun is a Flutter application designed to help users navigate the Tehran Metro
 
 ## Screenshots
 
-<!-- ![Home Screen](screenshots/home_screen.png) -->
+<kbd>
+<img src="https://s32.picofile.com/file/8480527426/1731513827554.jpg" alt="Home Screen" width="40%" height="40%" />
+  <img src="https://s32.picofile.com/file/8480527434/1731513827548.jpg" alt="Map" width="40%" height="40%" />
+  <!-- <img src="https://s32.picofile.com/file/8480527468/1731513827542.jpg" alt="Navigation 1" width="40%" height="40%" /> -->
+  <img src="https://s32.picofile.com/file/8480527476/1731513827534.jpg" alt="Navigation 2" width="40%" height="40%" />
+  <img src="https://s32.picofile.com/file/8480527492/1731513827528.jpg" alt="Auto Complete" width="40%" height="40%" />
+</kbd>
+<!-- <p float="left">
+  <img src="https://s32.picofile.com/file/8480527426/1731513827554.jpg" alt="Home Screen" width="200" />
+  <img src="https://s32.picofile.com/file/8480527434/1731513827548.jpg" alt="Map" width="200" />
+  <img src="https://s32.picofile.com/file/8480527468/1731513827542.jpg" alt="Navigation 1" width="200" />
+  <img src="https://s32.picofile.com/file/8480527476/1731513827534.jpg" alt="Navigation 2" width="200" />
+  <img src="https://s32.picofile.com/file/8480527492/1731513827528.jpg" alt="Auto Complete" width="200" />
+</p> -->
 
 ## Installation
 
@@ -46,24 +59,18 @@ Metrun is a Flutter application designed to help users navigate the Tehran Metro
     flutter run
     ```
 
+5. **build apk:**
+
+    ```sh
+    flutter build apk --split-per-abi
+    ```
+
 ## Usage
 
 1. **Open the app.**
 2. **Select the source station.**
 3. **Select the destination station.**
-4. **Tap on the "Find Route" button.**
-5. **View the shortest path, line changes, and estimated travel time.**
-
-## Dependencies
-
-- `flutter`: SDK dependency
-- `path_provider`: ^2.0.11
-- `cupertino_icons`: ^1.0.2
-
-## Dev Dependencies
-
-- `flutter_test`: SDK dependency
-- `flutter_lints`: ^2.0.0
+4. **View the shortest path, line changes, and estimated travel time.**
 
 ## Contributing
 
@@ -90,9 +97,9 @@ Contributions are welcome! Please fork this repository and submit a pull request
 
 5. **Submit a pull request.**
 
-## License
+<!-- ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. -->
 
 ## Contact
 
